@@ -1,0 +1,223 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    display: flex;
+    background-image: linear-gradient(90deg,orange,rgb(223, 31, 162));
+
+
+}
+.div1{
+    width: 50%;
+    text-align: center;
+}
+
+.div1 i{
+    margin: 5px;
+}
+.div2{
+    width: 50%;
+   
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background: pink;
+    height:50px;
+}
+.logo{
+    width: 20%;
+    float: left;
+    margin-left: 50px;
+}
+.navbar .nav-items{
+    display: flex;
+    width: 50%;
+    float: left;
+    text-align: center;
+    justify-content: center;
+   
+   
+}
+.nav-item{
+    padding: 5px;
+    list-style: none;
+}
+.nav-item .nav-link{
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    background: #ccc;
+    border: 10px;
+
+}
+#search{
+    width: 50%;
+    border-radius: 10px;
+    background-color: #ccc;
+    /* background: transparent; */
+    outline: none;
+    border: none;
+    height: 30px;
+    
+}
+#search::placeholder{
+    text-align: center;
+}
+.login{
+    width: 15%;
+    float: left;
+}
+button{
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+.home{
+    background-image: url(images/computer.avif);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+   
+}
+.homecontainer{
+    margin: 0px 50px;
+}
+.homebox{
+    margin: 200px 20px;
+    position: absolute;
+    color: white;
+    
+}
+.homebox h1{
+    margin: 0;
+    color: white;
+    
+}
+.homebox #readmore{
+    background-image: linear-gradient(90deg,orange,rgb(223, 31, 162));
+
+}
+.homebox button{
+    background: transparent;
+    color: white;
+    
+    
+}
+#homehr{
+    transform: rotate(90deg);
+    margin-top: 200px;
+    float: left;
+    width: 50px;
+}
+.menu{
+    background-image: linear-gradient(90deg,orange,rgb(223, 31, 162));
+    width: 100%;
+    height: 150px;
+    color: white;
+}
+.menucontainer{
+    margin-left: 50px;
+
+}
+.menuicons{
+    display: flex;
+}
+.minu1{
+    margin-top: 7px;
+}
+
+.minu1 i{
+    margin: 10px;
+   
+    
+    
+}
+
+
+.info{
+    margin: 3px 50px;
+    display: flex;
+}
+.info2 img{
+    width: 50%;
+}
+.info h1{
+    margin-bottom: 2px;
+}
+#btn{
+    background-image: linear-gradient(90deg,orange,rgb(223, 31, 162));
+    
+}
+.services{
+    background-color: #ccc;
+    width: 100%;
+    height: 250px;
+}
+.service{
+    margin: 3px 50px;
+}
+.service h1{
+    margin-bottom: 2px;
+}
+hr{
+    width: 55px;
+    height: 3px;
+    background-image: linear-gradient(90deg,orange,rgb(223, 31, 162));
+border-radius: 3px;
+border: none;
+    float: left;
+}
+
+.images{
+    display: flex;
+    margin-top: 25px;
+}
+img{
+    width: 90%;
+    height: 50%;
+}
+
+
+.img2{
+    width: 50%;
+    height: 50%;
+}
+.img2 button{
+    background-image: linear-gradient(90deg,orange,rgb(223, 31, 162));
+}
+
+.footer{
+    background: rgba(0, 0, 0, 0.81);
+    width: 100%;
+    height: 350px;
+
+}
+.footers{
+    margin: 0px 50px;
+    
+}
+.footers i{
+    margin: 5px;
+}
+p a{
+    color: black;
+}
+.footercontainer{
+    display: flex;
+    padding: 10px;
+}
+.fdiv1{
+margin-left: 100px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 0px;
+
+}
